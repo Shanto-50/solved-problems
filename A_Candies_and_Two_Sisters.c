@@ -20,5 +20,30 @@ int main()
         }
         printf("%d\n", count);
     }
-    return 0;
-}
+    return 0;}
+// the code below gives time limit exeeded
+// #include <stdio.h> 
+// int main()
+// {
+//     int t;
+//     scanf("%d", &t);
+//     int n;
+//     while (t--)
+//     {
+//         scanf("%d", &n);
+//         int count = 0, i = 1;
+//         while (i != 0)
+//         {
+//             int a = n - i;
+//             if (a > i)
+//                 count++;
+//             else
+//             {
+//                 printf("%d\n", count);
+//                 break;
+//             }
+//             i++;
+//         }
+//     }
+//     return 0;
+// }
